@@ -1,5 +1,6 @@
 // index.js
 
+const keep_alive = require('./keep_alive')
 const { connectToMongoDB } = require('./utils/mongodb');
 const { postDailyQuestion } = require('./cron');
 
