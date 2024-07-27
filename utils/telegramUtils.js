@@ -1,3 +1,5 @@
+// utils/telegramUtils.js
+
 const TelegramBot = require('node-telegram-bot-api');
 const { token, channelUsername } = require('../config/config');
 
